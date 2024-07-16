@@ -3,7 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Personal Blog - Posts</title>
+    <link rel="stylesheet" href="assets/css/blog.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>My Blog Posts</h1>
+      <button onclick="goBack()">Back</button>
+      <label class="switch">
+        <input type="checkbox" id="toggleTheme" />
+        <span class="slider round"></span>
+      </label>
+    </header>
+    <main id="blogPosts">
+      <!-- Blog posts will be dynamically added here -->
+    </main>
+
+    <footer>
+      <a href="#">Developer's Portfolio</a>
+    </footer>
+
+    <script src="assets/js/logic.js"></script>
+    <script src="assets/js/blog.js"></script>
+  </body>
 </html>
